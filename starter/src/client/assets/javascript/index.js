@@ -326,8 +326,6 @@
 		};
 	}
 
-	// TODO - Make a fetch call (with error handling!) to each of the following API endpoints 
-
 	function getTracks() {
 		return fetch(`${SERVER}/${API}/${TRACKS}`)
 				.then(res => res.json())
